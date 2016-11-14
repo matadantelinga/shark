@@ -29,7 +29,7 @@
 		                    </ul>
 		                </ul>
 		                <p class="text-right share-button">
-		                    <a href="#"><img src="<?php echo asset_url('shark'); ?>images/icon-share.png"/>&nbsp; Share</a>
+		                	<span class="st_sharethis" displayText="Share"></span>&nbsp;
 		                    <a href="<?php echo site_url('apply_career/'.$career['career_slug']); ?>">Apply</a>
 		                </p>
 		            </div>

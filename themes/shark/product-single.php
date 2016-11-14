@@ -45,10 +45,12 @@
 						<div class="col-md-12 col-sm-12">
 							<hr/>
 							<div class="content-padding">
-								<span class="st_sharethis" displayText="Share"></span>&nbsp;
-								<span class="share-button"><a href="#"><img src="<?php echo asset_url('shark'); ?>images/icon-print.png"/>&nbsp; Print</a></span>&nbsp;
-								<span class="share-button"><a href="#"><img src="<?php echo asset_url('shark'); ?>images/icon-pdf.png"/>&nbsp; Download PDF</a></span>&nbsp;
-								<span class="share-button"><a href="#"><img src="<?php echo asset_url('shark'); ?>images/icon-pdf.png"/>&nbsp; Download Manual</a></span>&nbsp;
+								<div class="share-button">
+									<span class="st_sharethis" displayText="Share"></span>&nbsp;
+									<span class="share-button"><a href="#"><img src="<?php echo asset_url('shark'); ?>images/icon-print.png"/>&nbsp; Print</a></span>&nbsp;
+									<span class="share-button"><a href="#"><img src="<?php echo asset_url('shark'); ?>images/icon-pdf.png"/>&nbsp; Download PDF</a></span>&nbsp;
+									<span class="share-button"><a href="#"><img src="<?php echo asset_url('shark'); ?>images/icon-pdf.png"/>&nbsp; Download Manual</a></span>&nbsp;
+								</div>
 							</div>
 						</div>
 						<div class="col-md-12 col-sm-12">

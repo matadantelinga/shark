@@ -46,12 +46,12 @@
 	.tab-side-button {
 		ul {
 			li {
-				padding: 10px;
 				border-bottom: $border-gray solid 1px;
 				a.side-button {
 					color: $content-text;
 					font-weight: 400;
 					text-decoration: none;
+					display: block;
 				}
 
 				&.active {

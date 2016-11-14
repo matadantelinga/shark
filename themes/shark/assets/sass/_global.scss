@@ -154,6 +154,23 @@ a {
 		}
 
 	}
+
+	.st_sharethis {
+		.stButton {
+			padding: 12px 35px;
+			background: #7f8082;
+			border-radius: 5px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			-o-border-radius: 5px;
+			text-align: center;
+
+			.sharethis {
+				background: url(images/icon-share.png) left top no-repeat;
+				color: #fff!important;
+			}
+		}
+	}
 }
 
 .quot-btn {
@@ -337,6 +354,7 @@ a {
 			display: none;
 			float: right;
 			padding: 0px 0 7px;
+			width: 100%;
 
 			form {
 				input[type="text"] {
