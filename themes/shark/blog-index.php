@@ -67,7 +67,7 @@
 									<?php echo $post->post_excerpt; ?>
 								</div>
 								<div class="share-button">
-									<a href="#"><img src="<?php echo asset_url('shark'); ?>images/icon-share.png"/>&nbsp; Share</a>
+									<span class="st_sharethis" displayText="Share"></span>&nbsp;
 								</div>
 							</div>
 						<?php endforeach; ?><hr/>
